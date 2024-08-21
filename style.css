@@ -33,11 +33,11 @@
     text-decoration: none;
   }
   h1,h2{
-    font-family:Volkhov ;
+    font-family:"Volkhov" ;
     font-size: 32px;
   }
   .litecolour .logo h1{
-    font-family:Volkhov ;
+    font-style:"Volkhov" ;
     font-size: 32px;
   }
   .orangebtn{
@@ -45,7 +45,7 @@
     border-radius: 5px;
     color:var(--lite) ;
     display: inline-block;
-   font-style: popins-semibold;
+   font-style: "Poppins-SemiBold";
     font-size: 16px;
     text-decoration: none;
     position: relative;
@@ -80,9 +80,9 @@
     margin: 0;
   }
   
-  nav ul li a {
-    font-family:"Poppins" ;
-    font-weight: normal;
+  nav ul li a{
+    font-style: Poppins-Regular;
+    
     font-size: 16px;
     color: #222222;
     text-decoration: none;
@@ -98,7 +98,7 @@
    
   }
   .herosection .left h1{
-    font-family: "Volkhov" ,sans-serif;
+    font-style: "Volkhov" ,sans-serif;
     font-weight: bold;
     font-size: 50px;
     line-height: 60px;
@@ -129,7 +129,7 @@
         border-radius: 5px;
         color:var(--orange) ;
         display: inline-block;
-       font-style: popins-semibold;
+       font-style: "Poppins-SemiBold";
         font-size: 16px;
         text-decoration: none;
         position: relative;
@@ -157,19 +157,19 @@
         position: absolute;
         top: 30px;
         left: 570px;
-        font-style: popins-semibold;
+        font-style: "Poppins-SemiBold";
         font-size: 16px;
         text-decoration: none;
        background-color: var(--orange);
       }
      .whitetab h5{
-      font-style: popins-medium;
+      font-style: "Poppins-Medium";
       text-decoration:none;
       
   
       }
       .whitetab p{
-        font-style: popins-regular;
+        font-style: "Poppins-Regular";
         font-size: x-small;
       }
       .whitetab  img{
@@ -188,7 +188,7 @@
       }
       .darkcolour h2{
         text-align: center;
-        font-family: "Volkhov" sans-serif;
+        font-style: "Volkhov" sans-serif;
         font-weight: bold;
         font-size: 32px;
         padding: 4%;
@@ -196,7 +196,9 @@
       }
       .darkcolour p{
         text-align: center;
-        font-style: popins-regular;
+        font-style:"Poppins-Regular";
+        
+        color: #666666;
       
       }
       .darkcolour .plane{
@@ -206,15 +208,32 @@
       }
       .darkcolour .cards{
         position: relative;
-        left: 150px;
+        left:200px;
+        bottom: 20px;
         display: flex;
+       gap: 20px;
         align-items: center;
-        content: "";
-        width: 750px;
-        background-color: #ffffff;
-        gap: 20px;
-        justify-content: space-around;
   
+      }
+      .darkcolour .card1{
+        content: "";
+        width: 200px;
+       
+        background-color: #ffffff;
+        padding: 10px;
+       
+      }
+      .darkcolour .card2{
+        content: "";
+        width: 200px;
+        background-color: #ffffff;
+        padding:10px;
+      }
+      .darkcolour .card3{
+        content: "";
+        width: 200px;
+        background-color: #ffffff;
+        padding: 10px;
       }
      .darkcolour .cards p 
       {
@@ -233,7 +252,7 @@
        bottom: 50px;
   
   font-size: 12px; 
-  font-style: popins-regular;
+  font-style: "Poppins-Regular";
   text-align: center;
   }
   .litecolour .dealsimage{
@@ -262,7 +281,7 @@
    bottom: 50px;
   
   font-size: 12px; 
-  font-style: popins-regular;
+  font-style: "Poppins-Regular";
   text-align: center;
   }
   .plan .planphotos{
@@ -375,7 +394,7 @@
          bottom: 50px;
         
         font-size: 12px; 
-        font-style: popins-regular;
+        font-style: "Poppins-Regular";
         text-align: center;
         }
         .blog .blogimages{
@@ -408,7 +427,7 @@
         .box h2{
           padding: 30px;
           text-align: center;
-          font-style:volkhov-bold ;
+          font-style:"Volkhov-Bold" ;
           color: var(--lite);
           font-size: 32px;
          
@@ -440,7 +459,7 @@
         }
        .box .form input {
           font-style:"poppins-regular",sans-serif;
-          font-weight: normal;
+        
           font-size: 12px;
           line-height: 300%;
           border-radius: 20px;
@@ -459,8 +478,8 @@
           border-radius: 8px;
           padding: 8px 32px;
           border: 0;
-          font-family: "Poppins", sans-serif;
-          font-weight: normal;
+          font-style: "Poppins-Regular", sans-serif;
+          
           font-size: 16px;
           color:var(--lite);
           cursor: pointer;}
@@ -544,5 +563,5 @@
         left: 1000px;
         bottom: 15px;
       }
-  
+      
       }
