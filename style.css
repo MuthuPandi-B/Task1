@@ -2,23 +2,24 @@
     --orange:#FA7436;
     --lite:#FEFCFB;
     --litedark:#F7F8FC;
+}
   *,
   *::after,
   *::before{
       box-sizing: border-box;
   }
   body{
-      margin: 0;
+      max-width: 1134px;
+
+      margin: 0 auto;
       font-family: "Poppins",sans-serif;
   }
-  body {
-      max-width: 1134px;
-      margin: 0 auto;
-  }
+ 
   .litecolour{
     background-color:var(--lite) ;
   }
   .darkcolour{
+    max-width: 100%;
     background-color: var(--litedark);
   }
   .box{
