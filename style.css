@@ -234,24 +234,34 @@ nav ul li a{
 
     }
     .darkcolour .card1{
+    
       content: "";
       width: 200px;
+      background-image: url(Assets/curve1.svg);
+      background-size: cover;
      
       background-color: #ffffff;
       padding: 10px;
      
     }
+ 
+    
     .darkcolour .card2{
+     
       content: "";
       width: 200px;
       background-color: #ffffff;
       padding:10px;
+      background-image: url(Assets/curve2.svg);
+      background-size: cover;
     }
     .darkcolour .card3{
       content: "";
       width: 200px;
       background-color: #ffffff;
       padding: 10px;
+      background-image: url(Assets/curve3.svg);
+      background-size: cover;
     }
    .darkcolour .cards p 
     {
