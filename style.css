@@ -227,9 +227,9 @@ nav ul li a{
     .darkcolour .cards{
       position: relative;
       left:200px;
-      bottom: 20px;
+      bottom: 60px;
       display: flex;
-     gap: 20px;
+     gap: 25px;
       align-items: center;
 
     }
@@ -242,6 +242,7 @@ nav ul li a{
      
       background-color: #ffffff;
       padding: 10px;
+      box-shadow: 8px 8px 30px rgb(228, 227, 227);
      
     }
  
@@ -287,9 +288,13 @@ text-align: center;
   
   position: relative;
   justify-content: space-around;
+  gap: 20px;
  
   display:flex ;
   
+}
+.firenze{
+  box-shadow: 10px 10px 10px rgb(251, 233, 200);
 }
 .deals .movebtn{
   position: relative;
@@ -317,6 +322,7 @@ text-align: center;
 
 position: relative;
 justify-content: space-around;
+gap: 30px;
 
 display:flex ;
 
@@ -570,7 +576,7 @@ bottom: 100px;
         }
         .trabook .social{
           position: relative;
-          top: 40px;
+          top: 0;
           left: -130px;
         }
         .trabook p{
