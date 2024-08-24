@@ -69,6 +69,9 @@ h1,h2{
   position: relative;
   background-color: var(--orange);
 }
+.movebtn span{
+  padding: 10px;
+}
 header nav .orangebtn{
   box-shadow:  0px 15px 10px -15px var(--orange);
 }
@@ -107,11 +110,11 @@ nav ul li a{
 }
 .herosection {
   display: flex;
-  height:150vh ;
+  height:120vh ;
   width: 100%;
   align-items: center;
   justify-content: space-between;
-  padding-top: px;
+  padding-top:10px;
   position: relative;
  
 }
@@ -141,6 +144,10 @@ nav ul li a{
    left: -20px;
     bottom: 35px;
     }
+    .herosection .right .heroimage{
+      height: 95%;
+      width: 95%;
+    }
     .whitebtn{
       padding: 16px 36px;
       border: solid #FA7436 2px;
@@ -160,7 +167,7 @@ nav ul li a{
       width: 750px;
       position:absolute;
       height: 100px;
-      bottom:60px;
+      bottom:20px;
       left: 170px;
       gap: 100px;
       background:#ffffff;
@@ -329,9 +336,8 @@ display:flex ;
 }
 .plan .movebtn{
 position: relative;
-left: 1010px;
 
-align-items:right;
+left: calc(100% - 100px);
 }
 .plan h2 img{
   height: 50px;
@@ -362,28 +368,52 @@ top: 100px
   left: 500px;
   top: -100px;
   content: "";
-  background-color:white;
+  background-color:transparent;
   height: 200px;
   width: 400px;
-  border: solid rgb(188, 183, 178) px;
-  border-radius: 5px;
-  box-shadow: 40px 60px 0px var(--lite);
+  
+
   
 }
+.about .right .frontbox{
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  background-color:white;
+ 
+  border-radius: 7px;
+  box-shadow: 0 30px 30px rgba(0, 0, 0, 0.1); /* Shadow for the card */
+ 
+
+}
 .about .right .bgtext{
-  position: relative;
-  bottom: 110px;
+  position:absolute;
+ top: 50px;
+   left: 40px;
+   width: 100%;
+   height: 100%;
+ 
+  background-color:white;
+  z-index: 1;
+  border: 1px solid rgb(218, 213, 213);
+  border-radius: 7px;
+ 
+
 
 }
 .about .right .bgtext h5{
   position: relative;
- left: 50px;
+ left: 30px;
+ top: 120px;
  font-style: poppins-semibold;
  padding: 5px;
 
 }
 .about .right .bgtext p{
  font-size: 13px;
+ top: 100px;
+left:30px;
  font-style: poppins-medium;
 
 }
@@ -540,12 +570,28 @@ bottom: 100px;
         }
         
         footer h3 {
+         
           color:black;
         }
         
         footer ul {
           list-style: none;
           padding-left: 20px;
+        }
+         footer .container .company h3{
+          position: relative;
+          left: 15px;
+         
+        }
+        footer .container .more h3{
+          position: relative;
+          left: 15px;
+         
+        }
+        footer .container .contact h3{
+          position: relative;
+          left: 15px;
+         
         }
         
         footer ul li {
